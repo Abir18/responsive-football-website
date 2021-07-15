@@ -49,6 +49,12 @@ button a {
     padding-left: 10px;
 }
 
+/* Animation  */
+.header-section:hover {
+    transform: scale(.7) translate(-30%);
+    transition: transform ease-in-out 3s;
+}
+
 /* Main Section  */
 .container {
     display: grid;
