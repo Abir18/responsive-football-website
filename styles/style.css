@@ -65,7 +65,40 @@ button a {
 .players img {
     width: 100%;
 }
+.players p {
+    color: #6C6C6C;
+}
 
+/* More Article  */
+.article-conatainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    margin: 5% 30%;
+}
+.article-blog {
+    margin-top: 50px;
+}
+
+/* Partners  */
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0;
+}
+.partners-container p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.partners-logo img {
+    margin: 0 20px;
+}
+hr {
+    width: 80%;
+    border: 2px solid black;
+}
 /* Footer  */
 .footer-content {
     display: flex;
@@ -73,7 +106,6 @@ button a {
     justify-content: center;
     align-items: center;
     background: #fff;
-
 }
 .footer-content img {
     width: 483px;
@@ -81,7 +113,7 @@ button a {
     margin-bottom: 20px;
 }
 
-.fab, .fas {
+.circle-font {
     color: #333;
     background: #ddd;
     margin: 0 7px;
